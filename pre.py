@@ -1,3 +1,8 @@
+import sys
+print(sys.version)
+import subprocess
+subprocess.run(["pip", "freeze"])
+
 import numpy as np
 import pickle
 import streamlit as st
